@@ -1,0 +1,58 @@
+{
+    "comments": {
+        // symbol used for single line comment. Remove this entry if your language does not support line comments
+        "lineComment": "//",
+        // symbols used for start and end a block comment. Remove this entry if your language does not support block comments
+        "blockComment": [ "/*", "*/" ]
+    },
+    // symbols used as brackets
+    "brackets": [
+        ["{", "}"],
+        ["[", "]"],
+        ["(", ")"]
+    ],
+    // symbols that are auto closed when typing
+    "autoClosingPairs": [
+        ["{", "}"],
+        ["[", "]"],
+        ["(", ")"],
+        ["\"", "\""],
+        ["'", "'"],
+        {
+            "open": "MOLE",
+            "close": "(X = 1, Y = 1, LIFETIME = 5)"
+        },
+        {
+            "open": "WALL",
+            "close": ":(ROW = 5, COL = 9, SIZEX = 5.85, SIZEY = 2.98, CURVEX = 0.1, CURVEY = 0.1, MAXANGLE = 80, MOLESCALEX = 34, MOLESCALEY = 34)"
+        },
+        {
+            "open": "MODIFIER",
+            "close": ":(MAINCONTROLLER = Right, MOTORSPACE = Medium, GEOMETRICMIRROR = False, RESTRICTMOTOR = False, PERFORMANCEFEEDBACK = None, JUDGEMENT = None)"
+        },
+        {
+            "open": "WAIT",
+            "close": ":(TIME=5)"
+        },
+        {
+            "open": "WAIT:(H",
+            "close": "IT)"
+        },
+        {
+            "open": "SEGMENT",
+            "close": ":(ID = 10000, LABEL = Example_Text_!_123)"
+        },
+        {
+            "open": "MESSAGE",
+            "close": ":(LABEL = Example_Text_!_123, TIME = 5)"
+        }
+    ],
+    // symbols that can be used to surround a selection
+    "surroundingPairs": [
+        ["{", "}"],
+        ["[", "]"],
+        ["(", ")"],
+        ["\"", "\""],
+        ["'", "'"]
+    ]
+}

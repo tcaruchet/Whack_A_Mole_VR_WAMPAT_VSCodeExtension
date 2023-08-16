@@ -1,0 +1,25 @@
+{
+  "name": "wam-test-pattern",
+  "displayName": "WAM Test Pattern",
+  "description": "Whack-A-Mole Test Pattern extension language syntax support",
+  "version": "1.0.0",
+  "engines": {
+    "vscode": "^1.81.0"
+  },
+  "categories": [
+    "Programming Languages"
+  ],
+  "contributes": {
+    "languages": [{
+      "id": "wampat",
+      "aliases": ["WAMpat", "wampat"],
+      "extensions": [".wampat"],
+      "configuration": "./language-configuration.json"
+    }],
+    "grammars": [{
+      "language": "wampat",
+      "scopeName": "source.wampat",
+      "path": "./syntaxes/wampat.tmLanguage.json"
+    }]
+  }
+}

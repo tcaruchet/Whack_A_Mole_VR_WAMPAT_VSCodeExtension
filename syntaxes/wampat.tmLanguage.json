@@ -1,0 +1,62 @@
+{
+	"$schema": "https://raw.githubusercontent.com/martinring/tmlanguage/master/tmlanguage.json",
+	"name": "WAMpat",
+	"patterns": [
+		{
+			"include": "#comments"
+		},
+		{
+			"include": "#keywords"
+		},
+		{
+			"include": "#primaryKey"
+		},
+		{
+			"include": "#parameters"
+		},
+		{
+			"include": "#values"
+		}
+	],
+	"repository": {
+		"comments": {
+			"name": "comment.line.double-slash.wampat",
+			"match": "\\/\\/.*"
+		},
+		"keywords": {
+			"patterns": [{
+				"name": "keyword.control.wampat",
+				"match": "\\b(START|STOP|WALL|MOLE|DISTRACTOR|WAIT|DIFFICULTY|MODIFIER|SEGMENT|MESSAGE|RANDGEN)\\b"
+			}]
+		},
+		"values": {
+			"patterns": [
+				{
+					"name": "constant.numeric.wampat",
+					"match": "(?<=\\=\\s*)\\d+\\.?\\d*\\b(?![_a-zA-Z])"
+				},
+				{
+					"name": "string.unquoted.wampat",
+					"match": "(?<=\\=\\s*)[A-Za-z_0-9!\\?]+(\\s+[A-Za-z_0-9!\\?]+)*"
+				}
+			]
+		},
+		"parameters": {
+			"patterns": [
+				{
+					"name": "variable.parameter.wampat",
+					"match": "\\b[A-Z_]+(?=\\s*=)"
+				},
+				{
+					"name": "variable.parameter.wampat",
+					"match": "(?<=\\()\\b[A-Z_]+\\b(?=\\))"
+				}
+			]
+		},
+		"primaryKey": {
+			"name": "variable.language.wampat",
+			"match": "\\bID\\b(?=\\s*=)"
+		}
+	},
+	"scopeName": "source.wampat"
+}
