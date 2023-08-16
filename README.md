@@ -1,4 +1,4 @@
-# WAM Test Pattern README
+# WAM Test Pattern (.wampat) - VS Code Extension
 
 Welcome to the WAM Test Pattern extension for Visual Studio Code! This extension provides specialized language syntax support for the WAMpat (Whack-A-Mole Pattern) language, dedicated to setting up the [Whack-A-Mole VR Game](https://github.com/med-material/Whack_A_Mole_VR) environment and configurations for patterns.
 
@@ -8,6 +8,10 @@ The WAM Test Pattern Extension offers a range of features for improving the read
 
 - **Syntax Highlighting**: Differentiate between keywords, numbers, strings, and other elements in your WAMpat code.
 - **Auto-Completion**: Type with efficiency as the extension predicts and suggests WAMpat keywords and commonly used configurations.
+
+<img width="566" alt="overview" src="https://github.com/tcaruchet/Whack_A_Mole_VR_WAMPAT_VSCodeExtension/assets/47271664/c53d8f41-d84a-4290-819f-ffa256668c65">
+<img width="149" alt="languagelist" src="https://github.com/tcaruchet/Whack_A_Mole_VR_WAMPAT_VSCodeExtension/assets/47271664/24d15a82-55d7-446e-ad90-82f1570cb818">
+
 
 ## Requirements
 
