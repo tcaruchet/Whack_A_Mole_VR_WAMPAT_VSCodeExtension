@@ -18,6 +18,30 @@ The WAM Test Pattern Extension offers a range of features for improving the read
 - Ensure you have Visual Studio Code version 1.81.0 or higher.
 - No other specific dependencies.
 
+## Installing the `.vsix` Extension Manually
+
+If you've obtained a `.vsix` file of the `wam-test-pattern` extension from releases page, you can easily install it into your Visual Studio Code. Follow the steps below:
+
+1. **Open Visual Studio Code**:
+   Start up Visual Studio Code on your computer.
+
+2. **Navigate to Extensions**:
+   Click on the square-shaped Extensions icon in the sidebar, or you can use the shortcut `Ctrl+Shift+X`.
+
+3. **Install from VSIX...**:
+   In the Extensions view, click on the `...` (More Actions) button located at the top-right corner, then from the dropdown menu, select `Install from VSIX...`.
+
+4. **Locate the `.vsix` file**:
+   In the file dialog that appears, locate and select the `wam-test-pattern.vsix` file that you've downloaded or received.
+
+5. **Confirm the Installation**:
+   A notification will pop up in the bottom-right corner of the window asking for confirmation. Click `Install` to proceed.
+
+6. **Reload**:
+   Once the extension is installed, you might need to reload Visual Studio Code. Click on the `Reload Now` button if it appears in the bottom right of the window.
+
+Your `wam-test-pattern` extension should now be installed and ready to use!
+
 ## Extension Settings
 
 The WAM Test Pattern extension integrates seamlessly into your Visual Studio Code environment, and as of now, it doesn't have specific user-facing settings.
