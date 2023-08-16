@@ -9,6 +9,10 @@
   "categories": [
     "Programming Languages"
   ],
+  "repository": {
+    "type": "git",
+    "url": "git://https://github.com/tcaruchet/Whack_A_Mole_VR_WAMPAT_VSCodeExtension.git"
+  },
   "contributes": {
     "languages": [{
       "id": "wampat",
